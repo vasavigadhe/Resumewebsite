@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300;1,400;1,500;1,700&display=swap');
+@import url('https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#main-header .menu-item{
+    width: 25%;
+}
+@media(min-width:1199px){
+    #main-header .menu-item{
+        padding: 3em !important
+    }
+}
+@media(min-width: 360px){
+    #main-header .menu-item{
+        padding: 1rem !important
+    }
+}
+#main-header .menu-item:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
